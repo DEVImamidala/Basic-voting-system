@@ -1,0 +1,477 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.start {
+  /* background-color: rgb(180, 180, 183); */
+  padding: 3% 3% 3% 0%;
+  margin: 9% 40% 9% 8%;
+  border: 3px black;
+  border-radius: 30px;
+
+
+}
+
+.forming {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.inputs {
+  margin-left: 2%;
+  width: 30%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.logininput {
+  margin-left: 2%;
+  width: 22%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.opps {
+  font-size: 5rem;
+}
+
+.oops1 {
+  margin-top: 6rem;
+}
+
+.votingpagemain {
+  background-color: rgb(213, 188, 229);
+  padding: 3% 3% 3% 10%;
+  margin: 9% 20% 9% 20%;
+  border: 3px black;
+  border-radius: 30px;
+
+}
+
+.votingpage2 {
+  display: flex;
+}
+
+#name {
+  background-color: rgb(105, 152, 155);
+  border-radius: 20px;
+  padding: 1% 1% 1% 1%;
+  width: 10%;
+  /* box-shadow:8px 8px 8px 8px lightblue; ; */
+}
+
+.registertag {
+  font-size: 40px;
+}
+
+.votingpage1 {
+  display: flex;
+}
+
+.displayimg {
+  background-image: url('../src/assets/displayback.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 920px;
+}
+
+.main {
+  display: flex;
+  background-color: rgb(25, 137, 181);
+  padding-left: 80%;
+  padding-top: 1%;
+
+}
+
+input[type=radio] {
+  border: 0px;
+  width: 12%;
+  height: 2em;
+}
+
+.main1 {
+  padding-right: 3%;
+}
+
+.loginimage {
+  background-image: url('../src/assets/C08o5e.jpg');
+  background-repeat: no-repeat;
+  height: 920px;
+  width: 100%
+}
+
+.login {
+  background-color: rgb(54, 157, 216);
+  ;
+  margin: 9% 22% 9% 22%;
+  border: 3px black;
+  padding-bottom: 10%;
+
+}
+
+.loginbody {
+  text-align: center;
+}
+
+.navbar {
+  background-color: rgb(72, 113, 234);
+}
+
+.icon {
+  border-radius: 50px;
+  background-color: gray;
+  margin: 3% 47% 3% 47%;
+  padding: 1% 1% 1% 1%;
+}
+
+#choice {
+  text-indent: 5%;
+}
+
+.blockquote {
+  color: rgb(85, 23, 61);
+  font-family: 'Times', serif;
+  font-size: 50px;
+  margin-left: 3%;
+  padding-top: 2%;
+}
+
+.blockquote::before {
+  content: '\201c';
+  top: 52px;
+  left: 15px;
+}
+
+.blockquote::after {
+  content: '\201d';
+  bottom: 750px;
+}
+
+.blockquote::before,
+.blockquote::after {
+  font-size: 5rem;
+  position: absolute;
+}
+
+.vote {
+  padding-left: 4%;
+  width: 20px;
+}
+
+.blockquote {
+  font-family: serif;
+}
+
+.card1 {
+  margin: 8% 60% 0% 3%;
+  background-repeat: no-repeat;
+  background-color: whitesmoke;
+  padding-left: 1%;
+  border-radius: 10px;
+  color: rgb(85, 23, 61);
+  font-size: xx-large;
+  font-family: "Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"
+
+}
+
+#name1 {
+  background-color: rgb(154, 18, 102);
+  border-radius: 20px;
+  padding: 1% 1% 1% 1%;
+  width: 10%;
+}
+
+.head {
+
+  background-image: url("../src/assets/adminlogin4.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 920px;
+}
+
+#tdp {
+  background: rgb(196, 193, 7);
+  background: linear-gradient(90deg, rgb(233, 237, 3) 0%, rgb(206, 245, 31) 35%, rgb(238, 240, 240) 100%);
+  /* width:80px;
+padding: 2%; */
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#ycp {
+  background: rgb(75, 67, 228);
+  background: linear-gradient(90deg, rgb(67, 89, 214) 0%, rgb(67, 89, 214) 35%, rgb(190, 241, 241) 100%);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#janasena {
+  background: rgb(235, 26, 3);
+  background: linear-gradient(90deg, rgb(248, 37, 5) 0%, rgb(249, 248, 248) 35%, rgb(219, 43, 19) 100%);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#bjp {
+  background: rgb(242, 136, 6);
+  background: linear-gradient(90deg, rgb(242, 136, 6) 0%, rgb(244, 242, 242) 35%, rgb(7, 147, 7) 100%);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#prajasanti {
+  background: rgb(56, 50, 240);
+  background: linear-gradient(90deg, rgb(37, 37, 215) 0%, rgb(244, 242, 242) 35%, rgb(7, 147, 7) 100%);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.emaildisplay {
+  color: #ccc;
+  font-size: larger;
+}
+
+.adminlogin {
+  background-image: url("../src/assets/exitpage.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 920px;
+  width: 1920px;
+}
+
+#checkstatus {
+  color: yellow;
+}
+
+.progressstyle {
+  display: flex;
+}
+
+
+.startingpage1 {
+  margin: 2%;
+  background-image: url("../src/assets/main4.2.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(53, 84, 141);
+  height: 200%;
+  border: 2px solid rgb(87, 68, 142);
+
+}
+
+#votebutton {
+  padding-left: 15%;
+  padding-top: 5%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  border-radius: 9px;
+  background-color: darkslateblue;
+  color: aliceblue;
+  font-size: larger;
+
+}
+
+.brochild {
+  margin-left: 60%;
+  margin-top: 15%;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+
+}
+
+.votebutton1 {
+  padding-left: 48%;
+
+}
+
+#name1 {
+  background-color: rgb(61, 109, 139);
+}
+
+.startinglogo1 {
+  display: flex;
+}
+
+.startingpage2 {
+  display: flex;
+
+}
+
+.startingpara {
+  padding-right: 20%;
+  padding-left: 9%;
+  color: white;
+
+  font-size: 50px;
+}
+
+.bro {
+  border: 2px solid rgb(203, 198, 198);
+  margin-left: 65%;
+  margin-right: 5%;
+  margin-top: 12%;
+  background-color: aliceblue;
+  padding: 3%;
+  border-radius: 7px;
+}
+
+.startingpagelogo {
+  padding-left: 26%;
+}
+
+#icon {
+  color: aliceblue;
+  font-size: 22px;
+  padding-top: 5%;
+  padding-left: 4%;
+}
+
+#admin {
+  color: aliceblue
+}
+
+a {
+  text-decoration: none;
+}
+
+.startingpage {
+  background-color: rgb(61, 61, 143);
+  padding-bottom: 3%;
+}
+
+.bar-container {
+  margin-bottom: 10px;
+}
+
+.bar-label {
+  color: white;
+  font-size: x-large;
+  margin-top: 1%;
+}
+
+.bar {
+  height: 20px;
+  background-color: #4caf50;
+  /* Green color */
+  text-align: center;
+  line-height: 20px;
+  color: white;
+}
+
+.bar-container {
+  width: 30%;
+  height: 24px;
+  background-color: #d7d3d3;
+  position: relative;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  border-radius: 9px;
+}
+
+.bar-fill {
+  height: 100%;
+  background-color: #4343e1;
+
+}
+
+.exitpage {
+  background: rgb(38,117,180);
+background: linear-gradient(90deg, rgba(38,117,180,1) 10%, rgba(76,113,215,1) 19%, rgba(100,133,232,1) 32%, rgba(77,195,242,1) 45%, rgba(102,157,240,1) 66%, rgba(54,107,232,1) 83%);
+  height: 915px;
+}
+
+.exitbody {
+  background-color: white;
+  position: absolute;
+  opacity: 1;
+  color: red;
+  /* /* margin: 7%  7% ; */
+  padding: 5% 5% 5% 5%;
+  border: 10px solid rgb(10, 104, 112);
+
+  transform: translate(-50%, -50%);
+  border-image: linear-gradient(to bottom right, rgb(140, 255, 0), rgb(0, 255, 247), rgb(0, 6, 128)) 1;
+  top: 50%;
+  left: 50%;
+  font-size: 55px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.adminlogin1 {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.checkstatus {
+  background-color: rgb(27, 75, 166);
+  padding-bottom: 50%;
+
+}
+
+.admininput {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  width: 13%;
+}
+
+#adminlogin {
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(14, 82, 159);
+  border-radius: 20px;
+  color:aliceblue
+}
+
+.voterid1 {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 13%;
+  margin-top: 3%;
+  font-size: 30px;
+  color: wheat;
+}
+
+.voterid2 {
+  background-color: rgb(32, 113, 164);
+  margin: 5% 22% 6% 22%;
+  padding: 2% 2% 2% 2%;
+  border-radius: 35px;
+}
+
+#voterid {
+  width: 15%;
+
+
+}
+
+.display {
+  background-image: url('../src/assets/para4.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 920px;
+}
+
+#continue {
+  padding: 1%;
+  border-radius: 30px;
+  background-color: rgb(54, 164, 189);
+}
+
+.voterid {
+  margin-top: 3%;
+  margin-left: 35%;
+}
+
+.exitbutton {
+  margin-top: 46%;
+  margin-left: 95%;
+}
+.formdiv{
+  display: flex;
+}
